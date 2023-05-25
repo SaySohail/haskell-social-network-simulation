@@ -48,7 +48,8 @@ To compile and run the application, use the command "stack run" in the project d
 
 To generate the Haddock documentation, use the following command:
 
-``` stack build && cabal haddock --enable-documentation --open ```
+``` stack build && cabal haddock --enable-documentation --open 
+```
 The generated Haddock documentation can be accessed through the provided file path.
 
 Upon running the application, the simulation starts automatically. Once the simulation completes, the final count of messages received by each user is displayed.
